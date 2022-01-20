@@ -38,6 +38,7 @@ function assignGrade(score) {
       break;
     default:
       console.log("Something is not right...");
+      break;
   }
 }
 
