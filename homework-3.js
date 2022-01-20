@@ -21,19 +21,19 @@ for (let i = 0; i < 5; i++) {
 
 function assignGrade(score) {
   switch (true) {
-    case score <= 50:
+    case score < 65:
       console.log("F");
       break;
-    case score >= 50 && score <= 60:
+    case score >= 65 && score <= 69:
       console.log("D");
       break;
-    case score >= 60 && score <= 70:
+    case score >= 70 && score <= 79:
       console.log("C");
       break;
-    case score >= 70 && score <= 80:
+    case score >= 80 && score <= 89:
       console.log("B");
       break;
-    case score >= 90 && score <= 100:
+    case score > 90:
       console.log("A");
       break;
     default:
@@ -41,4 +41,4 @@ function assignGrade(score) {
   }
 }
 
-assignGrade(40);
+assignGrade(70);
