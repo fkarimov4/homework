@@ -45,3 +45,4 @@ function assignGrade(score) {
 assignGrade(70);
 assignGrade(91);
 assignGrade(84);
+assignGrade(67);
